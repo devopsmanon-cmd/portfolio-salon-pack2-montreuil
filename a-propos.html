@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>&Agrave; propos - Salon de coiffure &agrave; MONTREUIL | Salon &Eacute;l&eacute;gance</title>
+  <meta name="description" content="D&eacute;couvrez l'histoire du Salon &Eacute;l&eacute;gance &agrave; MONTREUIL, notre approche personnalis&eacute;e et notre exigence de qualit&eacute;." />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Salon &Eacute;l&eacute;gance - &Agrave; propos &agrave; MONTREUIL" />
+  <meta property="og:description" content="Brushing, coloration, soins, coupe. R&eacute;servation simple. D&eacute;couvrez nos avis et notre galerie." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a class="logo" href="index.html">Salon &Eacute;l&eacute;gance</a>
+
+    <nav class="menu" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="a-propos.html">&Agrave; propos</a>
+      <a href="galerie.html">Galerie</a>
+      <a class="btn" href="contact.html">R&eacute;server</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <h1>&Agrave; propos du Salon &Eacute;l&eacute;gance &agrave; MONTREUIL</h1>
+    <p>Notre salon accompagne une client&egrave;le locale qui recherche une prestation fiable, moderne et personnalis&eacute;e.</p>
+
+    <div class="grid-2">
+      <article class="card">
+        <div class="card-body">
+          <h2>Notre vision</h2>
+          <p>Mettre en valeur chaque personne gr&acirc;ce &agrave; des coupes et des couleurs adapt&eacute;es &agrave; son style.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-body">
+          <h2>Notre m&eacute;thode</h2>
+          <p>Diagnostic capillaire, conseils sur mesure et r&eacute;sultats pens&eacute;s pour durer au quotidien.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="links">
+      <a href="mentions-legales.html">Mentions l&eacute;gales</a>
+      <a href="confidentialite.html">Politique de confidentialit&eacute;</a>
+    </div>
+    <p style="margin-top:12px; opacity:.7;">
+      &copy; <span id="year"></span> Salon &Eacute;l&eacute;gance - Montreuil
+    </p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
